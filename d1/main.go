@@ -23,7 +23,7 @@ func part1() (total int) {
 
 	var num1, num2 int
 	for scanner.Scan() {
-		fmt.Sscanf(scanner.Text(), "%d %d", &num1, &num2)
+		fmt.Sscanf(scanner.Text(), "%d   %d", &num1, &num2)
 		list1 = append(list1, num1)
 		list2 = append(list2, num2)
 	}
